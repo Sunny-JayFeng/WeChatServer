@@ -46,9 +46,18 @@ dependencies {
     implementation group: 'com.alibaba', name: 'druid', version: '1.2.24'
     // https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core
     implementation group: 'com.aliyun', name: 'aliyun-java-sdk-core', version: '4.7.3'
-    // https://mvnrepository.com/artifact/com.google.zxing/core
-    implementation group: 'com.google.zxing', name: 'core', version: '3.5.3'
 
+    // https://mvnrepository.com/artifact/net.coobird/thumbnailator
+    implementation 'net.coobird:thumbnailator:0.4.20'
+
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    implementation 'commons-io:commons-io:2.18.0'
+
+    // https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload
+    implementation 'commons-fileupload:commons-fileupload:1.5'
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '2.4.0'
 
 }
 
